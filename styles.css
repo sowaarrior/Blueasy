@@ -1,0 +1,399 @@
+/* -------------------------------------------------- N A V  B A R --------------------------------------------------------*/
+
+
+body {
+    position: relative;
+    font-family: 'Segoe ui';
+    background-color: #515f67;
+}
+
+nav {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 150px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    border: 3px solid transparent;
+    width: 130%;
+}
+
+a:active,
+a:hover {
+    color: #4bcaff;
+    border: 3px solid #4bcaff;
+    width: 130%;
+}
+
+#blue {
+    color: #4bcaff;
+}
+
+
+header li {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+/* -------------------------------------------------- H E A D E R --------------------------------------------------------*/
+
+
+header {
+    background-color: #515f67;
+    background-image: url(Image/Hero.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#title {
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 260px;
+}
+
+
+/* --------------------------------------------------- G E N E R A L ---------------------------------------------------------- */
+
+#portfolio,
+#testimonials {
+    background: white;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: lighter;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px auto 10px auto;
+    display: table;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+p {
+    padding-top: 40px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.line_white {
+    border-bottom: 2px solid white;
+}
+
+.line_black {
+    border-bottom: 2px solid #626f76;
+}
+
+.grey_text {
+    color: #515f67
+}
+
+/* --------------------------------------------------  S E R V I C E S --------------------------------------------------------*/
+
+#services {
+    padding-bottom: 75px;
+    background-color: #4bcaff;
+    min-height: 405px;
+    color: white;
+}
+
+#services p {
+    padding-top: 10px;
+}
+
+
+
+/* --------------------------------------------------  P O R T F O L I O --------------------------------------------------------*/
+
+#portfolio {
+    padding-top: 80px;
+    min-height: 840px;
+}
+
+#portfolio h3 {
+    color: #515f67;
+    margin-top: 0px;
+}
+
+.sizing {
+    width: 270px;
+    height: 270px;
+    padding-bottom: 30px;
+}
+
+#marginbot {
+    margin-bottom: 80px;
+}
+
+
+/* gallery */
+
+#gallery {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.column {
+  display: none; /* Hide columns by default */
+}
+
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+	padding-bottom: 30px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+#gallery {
+	padding-bottom: 30px;
+}
+
+
+.btn {
+	font-weight: bold;
+	color: #626f76;
+}
+
+/* --------------------------------------------------  F E A T U R E S --------------------------------------------------------*/
+
+#features {
+    background-color: #515f67;
+    min-height: 470px;
+    color: white;
+}
+
+#features p {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+#visit {
+    border: solid;
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-weight: bold;
+}
+
+
+#visit:hover {
+    border: solid;
+    border: 3px solid #353f46;
+    color: #353f46;
+}
+
+
+#video {
+    margin: 80px 0;
+}
+
+/* --------------------------------------------------  T W I T T E R --------------------------------------------------------*/
+
+#twitter {
+    background-color: #4bcaff;
+    min-height: 305px;
+    color: white;
+}
+
+#twitt_icon {
+    float: right;
+}
+
+#twitter p {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/* --------------------------------------------------  W H O --------------------------------------------------------*/
+
+#who {
+    background-image: url(Image/who.jpg);
+    min-height: 505px;
+    background-attachment: fixed;
+    color: white;
+}
+
+#who p {
+    font-size: 14px;
+}
+
+.social {
+    border: solid 2px white;
+    padding: 15px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+#social_icons {
+    margin-left: -5px;
+}
+
+
+#margin_bot {
+    padding-bottom: 165px;
+}
+
+
+
+/* --------------------------------------------------  T E S T I M O N I A L S --------------------------------------------------------*/
+
+#testimonials {
+    min-height: 360px;
+    padding-bottom: 80px;
+}
+
+#font {
+    font-family: "bitter", "Open Sans'";
+    font-size: 72px;
+    font-weight: bold;
+    float: right;
+}
+
+blockquote {
+    padding-top: 40px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+cite {
+    color: #4bcaff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* --------------------------------------------------  C O N T A C T --------------------------------------------------------*/
+
+#contact {
+    color: white;
+    min-height: 810px;
+    background-image: url(Image/contact.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form {
+    margin-top: 40px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#submit_button {
+    margin: 40px 0 80px 15px;
+    background-color: #4bcaff;
+    color: white;
+    border: none;
+    width: 370px;
+    height: 60px;
+    font-weight: bold;
+}
+
+.placeholder {
+    background-color: transparent;
+    border: solid 2px white;
+    width: 100%;
+    height: 60px;
+}
+
+#text_area {
+    background-color: transparent;
+    border: solid 2px white;
+    width: 100%;
+    height: 220px;
+    border-radius: 0px;
+}
+
+#contact p {
+    padding-top: 25px;
+}
+
+#submit_button:hover {
+    background-color: white;
+    color: #4bcaff;
+}
+
+/* --------------------------------------------------  F O O T E R --------------------------------------------------------*/
+
+#footer {
+    min-height: 170px;
+    background-color: #353f47;
+    padding-top: 80px;
+    color: #4f5d65;
+}
+
+#footer a {
+    text-decoration: none;
+    border: none;
+}
+
+#footer li {
+    list-style: none;
+    display: inline-block;
+    border-right: solid 2px #4f5d65;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#footer a {
+    color: #515f67;
+}
+
+#footer li:last-child {
+    border-right: none;
+}
+
+#footer ul {
+    margin-left: -40px;
+}
+
+#copyright {
+    text-align: right;
+    padding-top: -200px;
+}
